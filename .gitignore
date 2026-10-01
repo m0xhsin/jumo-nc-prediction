@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+.vercel/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.DS_Store
+.vercel
+.env*
+
+# Local databases, training data, and internal reference material
+*.db
+*.db-shm
+*.db-wal
+backend/raw_data/
+backend/mlruns/
+backend/app/notebooks/
+backend/docs/
+backend/notes/
+
+# Locally installed agent tools
+.agents/
+skills-lock.json
+
+# Retired Azure deployment automation (Vercel is the active host)
+.github/workflows/azure-static-web-apps-*.yml
+.github/workflows/jumo-backend-api-AutoDeployTrigger-*.yml

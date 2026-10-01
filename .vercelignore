@@ -1,0 +1,15 @@
+.git
+.venv
+**/node_modules
+**/__pycache__
+**/.env
+**/.env.*
+frontend/dist
+backend/raw_data
+backend/mlruns
+backend/notes
+backend/docs
+backend/app/notebooks
+backend/*.db
+notes
+.github
